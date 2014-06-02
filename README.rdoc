@@ -1,0 +1,6 @@
+== README
+
+Blogger is a minamalistic blogging app written in rails.
+
+Tutorial from http://tutorials.jumpstartlab.com/projects/blogger.html
+<tt>rake doc:app</tt>.
