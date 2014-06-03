@@ -6,4 +6,8 @@
 	<%= link_to "edit", edit_article_path(@article) %>
 </p>
 <br />
+
+<%= render partial: 'articles/comment', collection: @article.comments %>
+<%= render partial: 'comments/form' %>
+
 <p><%= link_to "<< Back to Articles List", articles_path %></p>
